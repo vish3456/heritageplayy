@@ -425,8 +425,46 @@ export default function Stories() {
         </button>
         <div className="stories__audio-player">
           <span className="stories__audio-icon">🎧</span>
-          <h3>Narrated Story</h3>
-          <audio src="/mohenjo-daro-narration.mp3" controls className="stories__audio" />
+          <h3>Listen to Stories</h3>
+          <p className="stories__audio-subtitle">Narrated tales from ancient civilizations</p>
+
+          <div className="stories__audio-list">
+            <div className="stories__audio-track">
+              <span className="stories__audio-track-icon">🏛️</span>
+              <div className="stories__audio-track-info">
+                <strong>The Great Bath of Mohenjo-daro</strong>
+                <span>A day in the life of the ancient city's most sacred structure</span>
+              </div>
+              <span className="stories__audio-badge">Coming Soon</span>
+            </div>
+
+            <div className="stories__audio-track">
+              <span className="stories__audio-track-icon">🎲</span>
+              <div className="stories__audio-track-info">
+                <strong>Games of the Indus Valley</strong>
+                <span>How ancient people played, competed, and connected</span>
+              </div>
+              <span className="stories__audio-badge">Coming Soon</span>
+            </div>
+
+            <div className="stories__audio-track">
+              <span className="stories__audio-track-icon">🏺</span>
+              <div className="stories__audio-track-info">
+                <strong>The Lost Seals of Harappa</strong>
+                <span>Mysterious symbols that still puzzle archaeologists</span>
+              </div>
+              <span className="stories__audio-badge">Coming Soon</span>
+            </div>
+
+            <div className="stories__audio-track">
+              <span className="stories__audio-track-icon">🌾</span>
+              <div className="stories__audio-track-info">
+                <strong>Farmers, Traders & Craftsmen</strong>
+                <span>The everyday life that built a civilization</span>
+              </div>
+              <span className="stories__audio-badge">Coming Soon</span>
+            </div>
+          </div>
         </div>
       </dialog>
 
@@ -531,11 +569,11 @@ export default function Stories() {
             <p>See how the past connects to the present.</p>
             <div className="stories__then-now-images">
               <div className="stories__then-now-frame">
-                <span className="stories__then-now-emoji">🏛️</span>
+                <img src="/images/harappa-ancient.jpg" alt="Ancient Harappa reconstruction" className="stories__then-now-img" />
                 <span className="stories__then-now-tag">Ancient Harappa (reconstruction)</span>
               </div>
               <div className="stories__then-now-frame">
-                <span className="stories__then-now-emoji">🏺</span>
+                <img src="/images/harappa-today.jpg" alt="Mohenjo-daro archaeological site today" className="stories__then-now-img" />
                 <span className="stories__then-now-tag">Today (archaeological site)</span>
               </div>
             </div>
